@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="808.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management_fx_main.PizzapageController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Common%20Green%20BG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="pizza" alignment="CENTER" layoutX="449.0" layoutY="46.0" prefHeight="116.0" prefWidth="297.0" text="Pizza" textFill="#728a52">
+         <font>
+            <Font name="Calisto MT" size="100.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="60.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Chicken%20Pizza.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="330.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Chili%20Cheese%20Pizza.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="600.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Naga%20Pasta.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="870.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Goat%20Cheese%20Pizza.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="chickpizz" alignment="CENTER" layoutX="46.0" layoutY="209.0" prefHeight="38.0" prefWidth="274.0" text="Chicken Pizza" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="chillicheesepizz" alignment="CENTER" layoutX="321.0" layoutY="209.0" prefHeight="43.0" prefWidth="275.0" text="Chilli Cheese Pizza" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="nagapizz" alignment="CENTER" layoutX="610.0" layoutY="209.0" prefHeight="43.0" prefWidth="234.0" text="Naga Pizza" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="goatcheesepizz" alignment="CENTER" layoutX="850.0" layoutY="209.0" prefHeight="43.0" prefWidth="274.0" text="Goat Cheese Pizza" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="222.0" layoutY="257.0" prefHeight="25.0" prefWidth="91.0" text="1450" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="492.0" layoutY="257.0" prefHeight="25.0" prefWidth="91.0" text="1450" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="762.0" layoutY="257.0" prefHeight="25.0" prefWidth="91.0" text="1450" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="1032.0" layoutY="257.0" prefHeight="25.0" prefWidth="91.0" text="1450" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="113.0" layoutY="634.0" mnemonicParsing="false" onAction="#chikpizzaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add ">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="378.0" layoutY="634.0" mnemonicParsing="false" onAction="#chillichessepizzaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add ">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="654.0" layoutY="634.0" mnemonicParsing="false" onAction="#nagapizzaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="924.0" layoutY="634.0" mnemonicParsing="false" onAction="#goatchessepizzaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="808.0" fitWidth="306.0" layoutX="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/common%20bg.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="1346.0" layoutY="721.0" mnemonicParsing="false" onAction="#backAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Back" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Pizzaname" alignment="CENTER" layoutX="1231.0" layoutY="220.0" prefHeight="44.0" prefWidth="254.0" promptText="PizzaName" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="quantity" alignment="CENTER" layoutX="1232.0" layoutY="286.0" prefHeight="44.0" prefWidth="254.0" promptText="Quantity" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></TextField>
+      <TextField fx:id="price" alignment="CENTER" layoutX="1233.0" layoutY="349.0" prefHeight="44.0" prefWidth="254.0" promptText="Price" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font></TextField>
+      <TextField fx:id="price1" alignment="CENTER" layoutX="1228.0" layoutY="155.0" prefHeight="44.0" prefWidth="254.0" promptText="Iteam" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></TextField>
+      <Button layoutX="1298.0" layoutY="500.0" mnemonicParsing="false" onAction="#pizzconfirm" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;" text="Confirm">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="1298.0" layoutY="436.0" mnemonicParsing="false" onAction="#calculatebil" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;" text="calculate">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

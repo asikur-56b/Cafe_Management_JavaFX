@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="808.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management_fx_main.BurgerpageController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Common%20Green%20BG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="burger" alignment="CENTER" layoutX="435.0" layoutY="46.0" prefHeight="116.0" prefWidth="297.0" text="Burger" textFill="#728a52">
+         <font>
+            <Font name="Calisto MT" size="100.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="60.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Chicken%20Burger.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="330.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Cheese%20Burger.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="600.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Garlic%20Burger.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="870.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Mushroom%20Burger.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="chikbur" alignment="CENTER" layoutX="58.0" layoutY="209.0" prefHeight="40.0" prefWidth="256.0" text="Chicken Burger" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="cheeseburg" alignment="CENTER" layoutX="329.0" layoutY="209.0" prefHeight="40.0" prefWidth="255.0" text="Cheese Burger" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="Garlicburg" alignment="CENTER" layoutX="598.0" layoutY="209.0" prefHeight="38.0" prefWidth="259.0" text="Garlic Burger" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="Mushroomburg" alignment="CENTER" layoutX="878.0" layoutY="209.0" prefHeight="40.0" prefWidth="266.0" text="Mushroom Burger" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="230.0" layoutY="257.0" prefHeight="25.0" prefWidth="83.0" text="250" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="500.0" layoutY="257.0" prefHeight="25.0" prefWidth="83.0" text="250" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="770.0" layoutY="257.0" prefHeight="25.0" prefWidth="83.0" text="250" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="1040.0" layoutY="257.0" prefHeight="25.0" prefWidth="83.0" text="250" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="chikburid" layoutX="118.0" layoutY="634.0" mnemonicParsing="false" onAction="#chikburaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Cheeseburid" layoutX="378.0" layoutY="633.0" mnemonicParsing="false" onAction="#CheeseburAction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Garlicburid" layoutX="647.0" layoutY="634.0" mnemonicParsing="false" onAction="#Garlicburaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Mushroomburid" layoutX="917.0" layoutY="634.0" mnemonicParsing="false" onAction="#MushroomburAction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: C5CAE9; -fx-background-radius: 50;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="811.0" fitWidth="309.0" layoutX="1194.0" layoutY="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/common%20bg.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="1354.0" layoutY="741.0" mnemonicParsing="false" onAction="#backAction" prefHeight="50.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Back" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <TextField fx:id="burgername" alignment="CENTER" layoutX="1221.0" layoutY="210.0" prefHeight="44.0" prefWidth="254.0" promptText="BurgerName" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></TextField>
+      <TextField fx:id="quantity" alignment="CENTER" layoutX="1222.0" layoutY="276.0" prefHeight="44.0" prefWidth="254.0" promptText="Quantity" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="price" alignment="CENTER" layoutX="1218.0" layoutY="349.0" prefHeight="44.0" prefWidth="254.0" promptText="TotalPrice" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="price1" alignment="CENTER" layoutX="1218.0" layoutY="145.0" prefHeight="44.0" prefWidth="254.0" promptText="Iteam" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></TextField>
+      <Button layoutX="1298.0" layoutY="495.0" mnemonicParsing="false" onAction="#burgconfirm" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;" text="Confirm">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font></Button>
+      <Button layoutX="1298.0" layoutY="431.0" mnemonicParsing="false" onAction="#calculatebil" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;" text="calculate">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Cafe_Management_FX_Main.jnlp">
+  <information>
+    <title>Cafe_Management_FX_Main</title>
+    <vendor>ASUS</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Cafe_Management_FX_Main.jar" size="41900" download="eager" />
+    <jar href="lib\itextpdf-5.5.9.jar" size="2287148" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.28.jar" size="2476480" download="eager" />
+    <jar href="lib\ojdbc14-10.2.0.2.0.jar" size="1545954" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Cafe_Management_FX_Main" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cafe_management_fx_main.Cafe_Management_FX_Main"  name="Cafe_Management_FX_Main" />
+  <update check="always"/>
+</jnlp>

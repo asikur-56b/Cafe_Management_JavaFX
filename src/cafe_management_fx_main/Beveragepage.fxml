@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="808.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management_fx_main.BeveragepageController">
+   <children>
+      <ImageView fitHeight="810.0" fitWidth="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Common%20Green%20BG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="beverage" alignment="CENTER" layoutX="404.0" layoutY="47.0" prefHeight="116.0" prefWidth="386.0" text="Beverage" textFill="#728a52">
+         <font>
+            <Font name="Calisto MT" size="100.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="60.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Coffee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="330.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Watermelon%20Juice.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="600.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Orange%20Juice.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="324.0" fitWidth="253.0" layoutX="870.0" layoutY="293.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Apple%20Juice.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="coffeebev" alignment="CENTER" layoutX="117.0" layoutY="209.0" prefHeight="38.0" prefWidth="139.0" text="Coffee" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="watjuicebev" alignment="CENTER" layoutX="298.0" layoutY="209.0" prefHeight="38.0" prefWidth="314.0" text="Watermelon Juice" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="orangejuicebev" alignment="CENTER" layoutX="579.0" layoutY="209.0" prefHeight="43.0" prefWidth="284.0" text="Orange Juice" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="applejuicebev" alignment="CENTER" layoutX="867.0" layoutY="209.0" prefHeight="43.0" prefWidth="242.0" text="Apple Juice" textFill="#ff6e40">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="234.0" layoutY="257.0" prefHeight="25.0" prefWidth="79.0" text="150" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="504.0" layoutY="257.0" prefHeight="25.0" prefWidth="79.0" text="150" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="774.0" layoutY="257.0" prefHeight="25.0" prefWidth="79.0" text="150" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="1044.0" layoutY="257.0" prefHeight="25.0" prefWidth="79.0" text="150" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="122.0" layoutY="625.0" mnemonicParsing="false" onAction="#coffeebevaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-radius: 50; -fx-background-color: C5CAE9;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="392.0" layoutY="624.0" mnemonicParsing="false" onAction="#watjuicebevaction" prefHeight="40.0" prefWidth="127.0" style="-fx-background-radius: 50; -fx-background-color: C5CAE9;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="659.0" layoutY="624.0" mnemonicParsing="false" onAction="#orangejuicebevaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-radius: 50; -fx-background-color: C5CAE9;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="924.0" layoutY="625.0" mnemonicParsing="false" onAction="#applejuicebevaction" prefHeight="31.0" prefWidth="133.0" style="-fx-background-radius: 50; -fx-background-color: C5CAE9;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="814.0" fitWidth="311.0" layoutX="1194.0" layoutY="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/common%20bg.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="1354.0" layoutY="728.0" mnemonicParsing="false" onAction="#backAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Back" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <TextField fx:id="beveragename" alignment="CENTER" layoutX="1241.0" layoutY="230.0" prefHeight="44.0" prefWidth="254.0" promptText="BeverageName" style="-fx-background-radius: 50; -fx-background-color: FFF9C4;">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="quantity" alignment="CENTER" layoutX="1242.0" layoutY="296.0" prefHeight="44.0" prefWidth="254.0" promptText="Quantity" style="-fx-background-radius: 50; -fx-background-color: FFF9C4;">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="price" alignment="CENTER" layoutX="1243.0" layoutY="359.0" prefHeight="44.0" prefWidth="254.0" promptText="Totalprice" style="-fx-background-radius: 50; -fx-background-color: FFF9C4;">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></TextField>
+      <TextField fx:id="price1" alignment="CENTER" layoutX="1242.0" layoutY="165.0" prefHeight="44.0" prefWidth="254.0" promptText="Iteam" style="-fx-background-radius: 50; -fx-background-color: FFF9C4;">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></TextField>
+      <Button layoutX="1320.0" layoutY="513.0" mnemonicParsing="false" onAction="#pizzconfirm" prefHeight="43.0" prefWidth="110.0" style="-fx-background-radius: 50; -fx-background-color: FFF9C4;" text="Confirm">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button layoutX="1320.0" layoutY="431.0" mnemonicParsing="false" onAction="#calculatebil" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: FFF9C4; -fx-background-radius: 50;" text="calculate">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

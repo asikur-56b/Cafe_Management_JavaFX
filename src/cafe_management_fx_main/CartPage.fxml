@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="808.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management_fx_main.CartPageController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Common%20Green%20BG.jpg" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="365.0" layoutY="57.0" prefHeight="116.0" prefWidth="435.0" text="Your Cart" textFill="#728a52">
+         <font>
+            <Font name="Calisto MT" size="100.0" />
+         </font>
+      </Label>
+      <TableView fx:id="billTable" layoutX="140.0" layoutY="209.0" prefHeight="438.0" prefWidth="915.0">
+        <columns>
+          <TableColumn fx:id="colitemName" prefWidth="218.0" text="Item Name" />
+          <TableColumn fx:id="colQuantity" minWidth="3.0" prefWidth="237.0" text="Quantity" />
+            <TableColumn fx:id="colUPrice" minWidth="0.0" prefWidth="243.0" text="Unit Price" />
+            <TableColumn fx:id="colTotalPrice" prefWidth="216.0" text="Total Price" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="808.0" fitWidth="306.0" layoutX="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/common%20bg.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" layoutX="1344.0" layoutY="711.0" mnemonicParsing="false" onAction="#backAction" prefHeight="63.0" prefWidth="126.0" style="-fx-background-color: 424242;" text="Back" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="PrintButton" layoutX="-7.0" layoutY="704.0" mnemonicParsing="false" onAction="#printButton" prefHeight="85.0" prefWidth="177.0" style="-fx-background-color: 424242;" text="Print Bill" textFill="#673ab7">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

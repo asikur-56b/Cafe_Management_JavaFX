@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="808.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management_fx_main.FrontpageController">
+   <children>
+      <ImageView fitHeight="808.0" fitWidth="306.0" layoutX="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/common%20bg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="808.0" fitWidth="1194.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/Cafe_Management_FX_Main/Cafe_Management_FX_Main/Image/Common%20Green%20BG.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="363.0" layoutY="103.0" onMouseEntered="#OnMouseEnter" onMouseExited="#OnMouseExit" prefHeight="159.0" prefWidth="495.0" text="Welcome" textFill="#728a52">
+         <font>
+            <Font name="Calisto MT" size="120.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="1270.0" layoutY="222.0" mnemonicParsing="false" onAction="#homeAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-radius: 10; -fx-background-color: 424242;" text="Home" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="order" layoutX="1270.0" layoutY="302.0" mnemonicParsing="false" onAction="#orderAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Order" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="cart" layoutX="1270.0" layoutY="382.0" mnemonicParsing="false" onAction="#cartAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Cart" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="admin" layoutX="1270.0" layoutY="456.0" mnemonicParsing="false" onAction="#adminAction" prefHeight="63.0" prefWidth="149.0" style="-fx-background-color: 424242;" text="Admin" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" contentDisplay="TEXT_ONLY" layoutX="1350.0" layoutY="720.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="63.0" prefWidth="112.0" style="-fx-background-color: 424242;" text="Exit" textAlignment="JUSTIFY" textFill="WHITESMOKE">
+         <font>
+            <Font name="Bodoni MT Bold" size="29.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </children>
+</AnchorPane>
